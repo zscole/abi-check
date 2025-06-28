@@ -1,0 +1,44 @@
+{
+  "name": "abi-check",
+  "version": "1.2.0",
+  "description": "Verify ABI matches deployed bytecode",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "abi-check": "./dist/bin/cli.js"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx bin/cli.ts",
+    "test": "uvu test",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ethereum",
+    "abi", 
+    "cli",
+    "smart-contracts",
+    "security",
+    "devtools"
+  ],
+  "author": "zak",
+  "license": "MIT",
+  "repository": "github:zak/abi-check",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "ethers": "^6.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.12",
+    "tsx": "^4.6.2",
+    "typescript": "^5.0.0",
+    "uvu": "^0.5.6"
+  }
+}
