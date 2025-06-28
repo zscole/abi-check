@@ -1,6 +1,5 @@
 # abi-check
-
-[![CI](https://github.com/YOUR_ORG/abi-check/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_ORG/abi-check/actions/workflows/test.yml)
+[![CI](https://github.com/zscole/abi-check/actions/workflows/test.yml/badge.svg)](https://github.com/zscole/abi-check/actions/workflows/test.yml)
 
 Check if your ABI matches the deployed contract's function selectors.
 
@@ -100,3 +99,5 @@ abi-check -a 0x... -r https://... -e $API_KEY --fail-on missing --silent
 # Show differences for logs
 abi-check -a 0x... -r https://... -e $API_KEY --diff
 ```
+
+[![CI](https://github.com/zak/abi-check/actions/workflows/test.yml/badge.svg)](https://github.com/zak/abi-check/actions/workflows/test.yml)
