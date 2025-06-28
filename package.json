@@ -10,7 +10,8 @@
   },
   "files": [
     "dist/",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
@@ -26,9 +27,9 @@
     "security",
     "devtools"
   ],
-  "author": "zak",
+  "author": "Zak Cole <zcole@linux.com>",
   "license": "MIT",
-  "repository": "github:zak/abi-check",
+  "repository": "github:zscole/abi-check",
   "dependencies": {
     "commander": "^11.0.0",
     "ethers": "^6.0.0",

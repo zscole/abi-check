@@ -100,4 +100,8 @@ abi-check -a 0x... -r https://... -e $API_KEY --fail-on missing --silent
 abi-check -a 0x... -r https://... -e $API_KEY --diff
 ```
 
-[![CI](https://github.com/zak/abi-check/actions/workflows/test.yml/badge.svg)](https://github.com/zak/abi-check/actions/workflows/test.yml)
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2024 Zak Cole
